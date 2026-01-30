@@ -6,7 +6,7 @@ Unlike standard ping sweepers, Scope Hunter doesn't just tell you *if* a subnet 
 
 > **Perfect for:** Validating VPN access and cleaning up scope lists before launching heavy vulnerability scanners like Nessus or Qualys.
 
-## 📸 Screenshots
+## Screenshots
 
 ### 1. Live Smart Scanning
 Real-time threaded scanning with visual status indicators.
@@ -20,18 +20,18 @@ Final report categorizing subnets by specific error types (Timeout vs. No Route)
 <img width="714" height="169" alt="image" src="https://github.com/user-attachments/assets/c174e7ca-8402-4862-a8b9-1abce354db8f" />
 
 
-## 🚀 Key Features
+## Key Features
 
-* **🕵️‍♂️ Hybrid Discovery:** Uses ICMP Echo + TCP SYN Probes on critical ports (`21, 22, 80, 443, 445, 3389, 8080`) to bypass common firewalls.
+* ** Hybrid Discovery:** Uses ICMP Echo + TCP SYN Probes on critical ports (`21, 22, 80, 443, 445, 3389, 8080`) to bypass common firewalls.
 * **🧠 Smart Diagnosis:** Automatically identifies the root cause of unreachable subnets:
     * **🟣 No Route:** Detects missing VPN routes or client-side config errors.
     * **🔴 Timeout:** Detects firewall blocks or dead networks.
     * **🔵 Empty Subnet:** Detects reachable networks (Gateway is UP) that have no active hosts.
-* **⚡ VPN Optimized:** Includes RTT tolerance (`--min-rtt-timeout`) to prevent false negatives on slow VPN connections.
-* **⏩ Fast Fail Logic:** Optimized timing templates to quickly skip dead IP blocks without wasting time.
-* **🎨 Visual Feedback:** Professional CLI output with color-coded results and thread animations.
+* ** VPN Optimized:** Includes RTT tolerance (`--min-rtt-timeout`) to prevent false negatives on slow VPN connections.
+* ** Fast Fail Logic:** Optimized timing templates to quickly skip dead IP blocks without wasting time.
+* ** Visual Feedback:** Professional CLI output with color-coded results and thread animations.
 
-## 📦 Installation
+## Installation
 
 Scope Hunter requires **Python 3** and **Nmap**.
 
