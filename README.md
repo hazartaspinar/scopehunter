@@ -52,7 +52,7 @@ Scope Hunter requires **Python 3** and **Nmap**.
     chmod +x ScopeHunter.py
     ```
 
-## 🛠 Usage
+## Usage
 
 This tool requires **root (sudo)** privileges to perform TCP SYN scans and access the kernel routing table.
 
