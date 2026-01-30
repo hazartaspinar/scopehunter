@@ -43,13 +43,13 @@ Scope Hunter requires **Python 3** and **Nmap**.
 
 2.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/scope-hunter.git](https://github.com/YOUR_USERNAME/scope-hunter.git)
+    git clone https://github.com/hazartaspinar/scopehunter
     cd scope-hunter
     ```
 
 3.  **Make Executable:**
     ```bash
-    chmod +x ScopeHunter.py
+    chmod +x scopehunter.py
     ```
 
 ## Usage
@@ -57,4 +57,4 @@ Scope Hunter requires **Python 3** and **Nmap**.
 This tool requires **root (sudo)** privileges to perform TCP SYN scans and access the kernel routing table.
 
 ```bash
-sudo python3 ScopeHunter.py -f scope.txt
+sudo python3 scopehunter.py -f scope.txt
